@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHearth", "CustomHearth\CustomHearth.csproj", "{6490A591-28B1-4995-91BA-68BB9EBA8A77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{BEC22F2D-956E-4A0D-BD65-8AF9D9F7768B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsDatabase", "CardsDatabase\CardsDatabase.csproj", "{D611BB21-196A-4FCF-800A-44AFEF8D8B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Type_GetMethods__extensionMetodyyy", "..\Type_GetMethods__extensionMetodyyy\Type_GetMethods__extensionMetodyyy.csproj", "{B7440D2E-9B6E-4F06-8571-A771C7AA43BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{6490A591-28B1-4995-91BA-68BB9EBA8A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6490A591-28B1-4995-91BA-68BB9EBA8A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6490A591-28B1-4995-91BA-68BB9EBA8A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC22F2D-956E-4A0D-BD65-8AF9D9F7768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC22F2D-956E-4A0D-BD65-8AF9D9F7768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC22F2D-956E-4A0D-BD65-8AF9D9F7768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC22F2D-956E-4A0D-BD65-8AF9D9F7768B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D611BB21-196A-4FCF-800A-44AFEF8D8B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D611BB21-196A-4FCF-800A-44AFEF8D8B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D611BB21-196A-4FCF-800A-44AFEF8D8B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D611BB21-196A-4FCF-800A-44AFEF8D8B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7440D2E-9B6E-4F06-8571-A771C7AA43BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7440D2E-9B6E-4F06-8571-A771C7AA43BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7440D2E-9B6E-4F06-8571-A771C7AA43BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7440D2E-9B6E-4F06-8571-A771C7AA43BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

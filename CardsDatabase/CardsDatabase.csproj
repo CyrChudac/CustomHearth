@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D611BB21-196A-4FCF-800A-44AFEF8D8B64}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CardsDatabase</RootNamespace>
+    <AssemblyName>CardsDatabase</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database.cs" />
+    <Compile Include="NonClassed\0cost\Wisp.cs" />
+    <Compile Include="NonClassed\1cost\1costNeutral.cs" />
+    <Compile Include="NonClassed\1cost\AbusiveSergeant.cs" />
+    <Compile Include="NonClassed\1cost\AngryChicken.cs" />
+    <Compile Include="NonClassed\1cost\ArgentSquire.cs" />
+    <Compile Include="NonClassed\1cost\BeamingSidekick.cs" />
+    <Compile Include="NonClassed\1cost\BloodsailCorsair.cs" />
+    <Compile Include="NonClassed\1cost\Crystallizer.cs" />
+    <Compile Include="NonClassed\1cost\ElvenArcher.cs" />
+    <Compile Include="NonClassed\1cost\FaithfulLumi.cs" />
+    <Compile Include="NonClassed\1cost\GoblinBomb.cs" />
+    <Compile Include="NonClassed\1cost\GoldshireFootman.cs" />
+    <Compile Include="NonClassed\1cost\GrimscaleOracle.cs" />
+    <Compile Include="NonClassed\1cost\GurubashiChicken.cs" />
+    <Compile Include="NonClassed\1cost\GurubashiOffering.cs" />
+    <Compile Include="NonClassed\1cost\HelplessHatchling.cs" />
+    <Compile Include="NonClassed\1cost\HungryCrab.cs" />
+    <Compile Include="NonClassed\1cost\JarDealer.cs" />
+    <Compile Include="NonClassed\1cost\LeperGnome.cs" />
+    <Compile Include="NonClassed\1cost\Lightwarden.cs" />
+    <Compile Include="NonClassed\NeutralMinion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Druid\0cost\" />
+    <Folder Include="Druid\10cost\" />
+    <Folder Include="Druid\1cost\" />
+    <Folder Include="Druid\2cost\" />
+    <Folder Include="Druid\3cost\" />
+    <Folder Include="Druid\4cost\" />
+    <Folder Include="Druid\5cost\" />
+    <Folder Include="Druid\6cost\" />
+    <Folder Include="Druid\7cost\" />
+    <Folder Include="Druid\8cost\" />
+    <Folder Include="Druid\9cost\" />
+    <Folder Include="Hunter\0cost\" />
+    <Folder Include="Hunter\10cost\" />
+    <Folder Include="Hunter\1cost\" />
+    <Folder Include="Hunter\2cost\" />
+    <Folder Include="Hunter\3cost\" />
+    <Folder Include="Hunter\4cost\" />
+    <Folder Include="Hunter\5cost\" />
+    <Folder Include="Hunter\6cost\" />
+    <Folder Include="Hunter\7cost\" />
+    <Folder Include="Hunter\8cost\" />
+    <Folder Include="Hunter\9cost\" />
+    <Folder Include="Mage\0cost\" />
+    <Folder Include="Mage\10cost\" />
+    <Folder Include="Mage\1cost\" />
+    <Folder Include="Mage\2cost\" />
+    <Folder Include="Mage\3cost\" />
+    <Folder Include="Mage\4cost\" />
+    <Folder Include="Mage\5cost\" />
+    <Folder Include="Mage\6cost\" />
+    <Folder Include="Mage\7cost\" />
+    <Folder Include="Mage\8cost\" />
+    <Folder Include="Mage\9cost\" />
+    <Folder Include="NonClassed\10cost\" />
+    <Folder Include="NonClassed\2cost\" />
+    <Folder Include="NonClassed\3cost\" />
+    <Folder Include="NonClassed\4cost\" />
+    <Folder Include="NonClassed\5cost\" />
+    <Folder Include="NonClassed\6cost\" />
+    <Folder Include="NonClassed\7cost\" />
+    <Folder Include="NonClassed\8cost\" />
+    <Folder Include="NonClassed\9cost\" />
+    <Folder Include="Paladin\0cost\" />
+    <Folder Include="Paladin\10cost\" />
+    <Folder Include="Paladin\1cost\" />
+    <Folder Include="Paladin\2cost\" />
+    <Folder Include="Paladin\3cost\" />
+    <Folder Include="Paladin\4cost\" />
+    <Folder Include="Paladin\5cost\" />
+    <Folder Include="Paladin\6cost\" />
+    <Folder Include="Paladin\7cost\" />
+    <Folder Include="Paladin\8cost\" />
+    <Folder Include="Paladin\9cost\" />
+    <Folder Include="Priest\0cost\" />
+    <Folder Include="Priest\10cost\" />
+    <Folder Include="Priest\1cost\" />
+    <Folder Include="Priest\2cost\" />
+    <Folder Include="Priest\3cost\" />
+    <Folder Include="Priest\4cost\" />
+    <Folder Include="Priest\5cost\" />
+    <Folder Include="Priest\6cost\" />
+    <Folder Include="Priest\7cost\" />
+    <Folder Include="Priest\8cost\" />
+    <Folder Include="Priest\9cost\" />
+    <Folder Include="Rogue\0cost\" />
+    <Folder Include="Rogue\10cost\" />
+    <Folder Include="Rogue\1cost\" />
+    <Folder Include="Rogue\2cost\" />
+    <Folder Include="Rogue\3cost\" />
+    <Folder Include="Rogue\4cost\" />
+    <Folder Include="Rogue\5cost\" />
+    <Folder Include="Rogue\6cost\" />
+    <Folder Include="Rogue\7cost\" />
+    <Folder Include="Rogue\8cost\" />
+    <Folder Include="Rogue\9cost\" />
+    <Folder Include="Shaman\0cost\" />
+    <Folder Include="Shaman\10cost\" />
+    <Folder Include="Shaman\1cost\" />
+    <Folder Include="Shaman\2cost\" />
+    <Folder Include="Shaman\3cost\" />
+    <Folder Include="Shaman\4cost\" />
+    <Folder Include="Shaman\5cost\" />
+    <Folder Include="Shaman\6cost\" />
+    <Folder Include="Shaman\7cost\" />
+    <Folder Include="Shaman\8cost\" />
+    <Folder Include="Shaman\9cost\" />
+    <Folder Include="Warlock\0cost\" />
+    <Folder Include="Warlock\10cost\" />
+    <Folder Include="Warlock\1cost\" />
+    <Folder Include="Warlock\2cost\" />
+    <Folder Include="Warlock\3cost\" />
+    <Folder Include="Warlock\4cost\" />
+    <Folder Include="Warlock\5cost\" />
+    <Folder Include="Warlock\6cost\" />
+    <Folder Include="Warlock\7cost\" />
+    <Folder Include="Warlock\8cost\" />
+    <Folder Include="Warlock\9cost\" />
+    <Folder Include="Warrior\0cost\" />
+    <Folder Include="Warrior\10cost\" />
+    <Folder Include="Warrior\1cost\" />
+    <Folder Include="Warrior\2cost\" />
+    <Folder Include="Warrior\3cost\" />
+    <Folder Include="Warrior\4cost\" />
+    <Folder Include="Warrior\5cost\" />
+    <Folder Include="Warrior\6cost\" />
+    <Folder Include="Warrior\7cost\" />
+    <Folder Include="Warrior\8cost\" />
+    <Folder Include="Warrior\9cost\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomHearth\CustomHearth.csproj">
+      <Project>{6490a591-28b1-4995-91ba-68bb9eba8a77}</Project>
+      <Name>CustomHearth</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

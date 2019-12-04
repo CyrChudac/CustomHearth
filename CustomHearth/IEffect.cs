@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CustomHearth
 {
-    public class Class1
-    {
-    }
+	public abstract class IEffect
+	{
+		public abstract void Run(EffectInfo info);
+	}
 }
